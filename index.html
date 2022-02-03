@@ -10,8 +10,191 @@
       integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/7d89c49ac9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Eric C. Kendrick</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <!----------------Jumbotron goes here------------ -->
+      <div class="jumbotron">
+        <h1 class="display-4">Eric Kendrick</h1>
+        <p class="lead">Software Developer | Raconteur</p>
+      </div>
+
+      <!-------------Create success alert that shows bootstrap ver used------>
+      <div class="alert alert-success" role="alert">
+        This resume was created with Bootstrap 4.6!
+      </div>
+      <!---------------Skills list group goes here----------------->
+      <ul class="col-md list-group">
+        <h2>My Skills</h2>
+
+        <li class="d-flex justify-content-between list-group-item">
+          <span class="imgSkill"
+            ><img class="icon" src="images/html-5.png" /> HTML</span
+          ><span class="badge badge-pill badge-primary">30%</span>
+        </li>
+
+        <li class="d-flex justify-content-between list-group-item">
+          <span class="imgSkill"
+            ><img class="icon" src="images/cssicon.png" /> CSS</span
+          ><span class="badge badge-pill badge-primary">30%</span>
+        </li>
+
+        <li class="d-flex justify-content-between list-group-item">
+          <span class="imgSkill"
+            ><img class="icon" src="images/jsicon.png" /> JavaScript</span
+          ><span class="badge badge-pill badge-primary">20%</span>
+        </li>
+
+        <li class="d-flex justify-content-between list-group-item">
+          <span class="imgSkill"
+            ><img class="icon" src="images/bootstrap.png" /> Bootstrap</span
+          ><span class="badge badge-pill badge-primary">20%</span>
+        </li>
+
+        <li class="d-flex justify-content-between list-group-item">
+          <span class="imgSkill"
+            ><img class="icon" src="images/react.png" /> React</span
+          ><span class="badge badge-pill badge-primary">10%</span>
+        </li>
+      </ul>
+      <br />
+      <!--Experience section- create cards and add top images related to position-->
+      <h2>My Experience</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/sim.jpeg"
+              class="card-img-top img-fluid"
+              alt="Army UAS simulator"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Unmanned Aircraft Simulator Technician</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b8/USMC-01522.jpg"
+              class="card-img-top img-fluid"
+              alt="Army Shadow Unmanned aircraft"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Standardization Instructor/ Flight Program Manager
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/productofficelogo.png"
+              class="card-img-top img-fluid"
+              alt="PMUAS logo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                UAS Subject Matter Expert/Logistics Analyst
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/jump.jpeg"
+              class="card-img-top img-fluid"
+              alt="Army paratroopers jumping"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                UAS Operator/Administrative & Training NCO
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/latte.jpeg"
+              class="card-img-top img-fluid"
+              alt="Latte art in a mug"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cafe Manager</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="text-center">
+        <div class="container p-4">
+              Eric Kendrick <br>
+              Birmingham, AL <br>
+              eric.c.kendrick@gmail.com
+          </div>
+          <section class="mb-4">
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
